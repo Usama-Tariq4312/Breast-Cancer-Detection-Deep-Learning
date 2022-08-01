@@ -1,7 +1,4 @@
-# first-python-code-
-# factorial of given number 
-
-def factorial(n): 
-
-    return 1 if (n==1 or n==0) else n * factorial(n - 1);  
-print("Factorial of",num,"is", factorial(num))
+To build a breast cancer detection an IDC dataset that can correct describe a histology image as malign. In this project of the python, we’ll build a classifier to train on 80% of a breast cancer image dataset. Of this, we’ll keep 10% of the data for validation. Using Keras, we’ll define a CNN (Convolutional Neural Network), and train it on our images. and then we will find a confusion matrix to analyze the performance of the model.
+IDC is the form of Invasive Ductal Carcinoma cancer that found in a milk tube and occupy the fatty breast tissue outside the tube it is the most common form of breast cancer forming 80% of all breast cancer diagnoses. And histology is a structure of tissues.  Breast Cancer is the most common type of cancer in woman worldwide accounting for 20% of all cases...
+In 2012, it is found that 1.68 million new cases are recorded and 522,000 deaths.
+The main problems are that women often abandon the indication, which causes more bad effects on them thus lowering the survival chances. In modern countries, the survival rate is although high but in the area of developing countries where the 5% survival rates are poor. In India, there are about one million cases every year and survival percentage is 10%. Therefore, it is very important to detect the signs as early as possible IDC is the most common form of breast cancer. About 80% of all breast cancers are IDC the cost of testing for breast cancer sets one back with $5000, which is a very huge amount for poor families. Therefore, detection of breast cancer using Histopathology images could reduce cost, time and accuracy of test. If you want to read more about breast cancer then read following article (https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5453426/) as they used deep learning approach to study on histology images and achieved the sensitivity of 95 This shows the power of automation and how it could help in the detection of breast cancer.
